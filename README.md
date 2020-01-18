@@ -1,5 +1,7 @@
 # Cypress Bug - Reduced Test Case
 
+**Issue Link**: https://github.com/cypress-io/cypress/issues/6193
+
 The following repository is a reduced test case for a bug in the [Cypress](https://github.com/cypress-io/cypress) testing tool. If a webpage with zero JavaScript present contains a DOM element with the `id` attribute set to `jquery` (for example, `<p id="jquery">jQuery</p>`), then the error `TypeError: item.first is not a function` is thrown. 
 
 (`dist/index.html`)
