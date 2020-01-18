@@ -16,7 +16,7 @@ The following repository is a reduced test case for a bug in the [Cypress](https
 </head>
 <body>
   <h1>Homepage</h1>
-  <p>jQuery</p>
+  <p id="jquery">jQuery</p>
 </body>
 </html>
 ```
