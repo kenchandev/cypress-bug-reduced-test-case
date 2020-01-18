@@ -1,0 +1,18 @@
+{
+  "name": "cypress-bug-reduced-test-case",
+  "description": "A very small test case for reproducing a Cypress bug. When an element has an `id` attribute set to `jQuery`, the following error is thrown by the `cy.visit()` method: 'TypeError: item.first is not a function.' No jQuery library is present in the project.",
+  "scripts": {
+    "serve": "serve dist",
+    "test:e2e": "start-server-and-test serve http://localhost:5000 cy:open",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Ken Chan <kenchandev@gmail.com>",
+  "devDependencies": {
+    "@testing-library/cypress": "^5.0.2",
+    "cypress": "^3.8.2",
+    "serve": "^11.3.0",
+    "start-server-and-test": "^1.10.6"
+  }
+}
